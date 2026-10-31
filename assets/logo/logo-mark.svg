@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Life With The Delfinado's mark">
+  <!-- vine stem -->
+  <path d="M12 58 C 20 46, 28 34, 34 26 S 46 12, 50 8" fill="none" stroke="#4F6B45" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- leaves -->
+  <path d="M22 44 C 13 43, 9 36, 10 30 C 17 31, 22 37, 22 44 Z" fill="#7E9A6C"/>
+  <path d="M30 32 C 31 23, 26 18, 20 17 C 19 24, 23 30, 30 32 Z" fill="#4F6B45"/>
+  <path d="M40 19 C 47 19, 52 23, 53 29 C 46 29, 41 25, 40 19 Z" fill="#7E9A6C"/>
+  <!-- hanging tomato -->
+  <path d="M33 27 C 36 32, 38 35, 40 38" fill="none" stroke="#4F6B45" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="42" cy="45" r="9" fill="#C23B22"/>
+  <path d="M42 36.5 l2.2 3.4 l3.6-0.8 l-2.4 2.8 l1.4 3.2 l-3.6-1.6 l-3.2 2 l0.8-3.6 l-2.8-2.4 l3.6-0.2 Z" fill="#4F6B45"/>
+  <ellipse cx="38.5" cy="47" rx="2.2" ry="3.2" fill="#fff" opacity=".22" transform="rotate(-20 38.5 47)"/>
+  <!-- marigold at the tip -->
+  <g transform="translate(50 8)">
+    <g fill="#E9A23B">
+      <circle cx="0" cy="-4.2" r="2.6"/><circle cx="4" cy="-1.3" r="2.6"/><circle cx="2.5" cy="3.4" r="2.6"/>
+      <circle cx="-2.5" cy="3.4" r="2.6"/><circle cx="-4" cy="-1.3" r="2.6"/>
+    </g>
+    <circle r="2.4" fill="#C9761E"/>
+  </g>
+</svg>
