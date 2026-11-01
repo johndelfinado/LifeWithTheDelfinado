@@ -12,7 +12,7 @@ python -m http.server 5173
 - `index.html` – page structure and text (About, verses, contact)
 - `styles.css` – colours, fonts and layout (colour tokens at the top)
 - `main.js` – the video list and page behaviour
-- `assets/logo/` – `logo.svg` (full logo) and `logo-mark.svg` (icon / favicon)
+- `assets/logo/` – `family-logo.png` (header logo) and `favicon.png` (browser tab icon)
 - `assets/videos/` – YouTube thumbnails, named by video ID
 - `assets/photos/` – cropped photos for the hero and verse bands
 
@@ -24,5 +24,4 @@ python -m http.server 5173
 
 ## Still to do
 
-- Contact email: replace `hello@example.com` in `index.html`.
 - Newsletter: set the form's `action` in `index.html` to a Mailchimp or Formspree endpoint.
