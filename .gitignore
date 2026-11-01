@@ -7,5 +7,5 @@ desktop.ini
 .vscode/
 *.swp
 
-# Claude Code local settings
-.claude/settings.local.json
+# Claude Code helper files (kept locally, not published)
+.claude/
