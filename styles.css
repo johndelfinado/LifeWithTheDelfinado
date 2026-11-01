@@ -100,10 +100,22 @@ html { scroll-padding-top: 160px; }
   display: flex; flex-direction: column; gap: 10px; z-index: 20;
 }
 .dots a {
+  position: relative;
   width: 10px; height: 10px; border-radius: 50%;
   border: 1px solid var(--ink-soft); background: rgba(255,255,255,.75);
 }
 .dots a.is-active { background: var(--marigold); border-color: var(--marigold); }
+/* Section name slides out to the left on hover / keyboard focus */
+.dots a::after {
+  content: attr(aria-label);
+  position: absolute; right: calc(100% + 10px); top: 50%;
+  transform: translate(6px, -50%);
+  padding: 4px 10px; white-space: nowrap; pointer-events: none;
+  background: var(--ink); color: var(--white);
+  font: 700 .72rem/1.2 var(--sans); letter-spacing: 1px; text-transform: uppercase;
+  opacity: 0; transition: opacity .15s, transform .15s;
+}
+.dots a:hover::after, .dots a:focus-visible::after { opacity: 1; transform: translate(0, -50%); }
 
 /* ---------- Boxed section titles (the reference site's signature) ---------- */
 .boxed {
