@@ -90,7 +90,7 @@ player.addEventListener('click', (e) => { if (e.target === player) player.close(
 player.addEventListener('close', () => { frame.innerHTML = ''; });
 
 // Mobile menu reuses the main nav links.
-const menuBtn = document.querySelector('.hero .menu');
+const menuBtn = document.querySelector('.masthead .menu');
 const mobileNav = document.getElementById('mobile-nav');
 mobileNav.innerHTML = document.querySelector('.nav').innerHTML + '<button class="menu" type="button">Close</button>';
 const setMenu = (open) => {

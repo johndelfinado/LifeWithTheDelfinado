@@ -5,39 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Life With The Delfinado's · A homemaker's diary from New Zealand</title>
   <meta name="description" content="Slow living, homemaking, gardening, simple cooking and faith from Geraldine and the Delfinado family in the New Zealand countryside.">
-  <link rel="icon" href="assets/logo/logo-mark.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/logo/favicon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip" href="#about">Skip to content</a>
 
-  <header class="hero" id="home" style="--bg:url('assets/photos/sGTAKsUGxUw.jpg')">
-    <div class="hero__bar">
+  <header class="masthead">
+    <div class="masthead__inner">
+    <div class="masthead__top">
       <a class="brand" href="#home" aria-label="Life With The Delfinado's, home">
-        <img src="assets/logo/logo-mark.svg" alt="" width="52" height="52">
-        <span class="brand__words"><em>Life with the</em> Delfinado’s</span>
+        <img src="assets/logo/family-logo.png" alt="" width="480" height="375">
+        <span class="brand__words">Life With The Delfinado’s</span>
       </a>
-      <nav class="nav" aria-label="Main">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#life">Life</a>
-        <a href="#homemaking">Homemaking</a>
-        <a href="#cooking">Cooking</a>
-        <a href="#wanderlust">Wanderlust</a>
-        <a href="#faith">Faith &amp; Family</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <a class="yt" href="https://www.youtube.com/@LifeWithTheDelfinadosInNZ?sub_confirmation=1" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8ZM9.7 15.1V8.9l5.8 3.1-5.8 3.1Z"/></svg>
-        Subscribe
-      </a>
+      <ul class="utility">
+        <li>
+          <a class="yt" href="https://www.youtube.com/@LifeWithTheDelfinadosInNZ?sub_confirmation=1" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8ZM9.7 15.1V8.9l5.8 3.1-5.8 3.1Z"/></svg>
+            Subscribe
+          </a>
+        </li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#contact">Get in Touch</a></li>
+      </ul>
       <button class="menu" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
     </div>
-    <p class="hero__line">A homemaker’s diary from the New Zealand countryside</p>
+    <nav class="nav" aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#life">Life</a>
+      <a href="#homemaking">Homemaking</a>
+      <a href="#cooking">Cooking</a>
+      <a href="#wanderlust">Wanderlust</a>
+      <a href="#faith">Faith &amp; Family</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    </div>
   </header>
+
+  <section class="hero" id="home" style="--bg:url('assets/photos/sGTAKsUGxUw.jpg')">
+    <p class="hero__line">A homemaker’s diary from the New Zealand countryside</p>
+  </section>
 
   <nav class="mobile-nav" id="mobile-nav" aria-label="Main" hidden></nav>
 
@@ -130,7 +142,7 @@
         <h2 class="boxed">Newsletter</h2>
         <p>Get a note from our home when a new video is out.</p>
         <!-- TODO: connect to a newsletter service (e.g. Mailchimp or Formspree) by setting action -->
-        <form class="signup" action="" method="post" novalidate>
+        <form class="signup" id="newsletter" action="" method="post" novalidate>
           <label for="email">Email address</label>
           <div class="signup__row">
             <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
