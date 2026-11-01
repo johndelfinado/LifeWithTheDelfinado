@@ -52,8 +52,7 @@ html { scroll-padding-top: 160px; }
   padding: 16px 0 10px;
 }
 .brand { display: flex; align-items: center; gap: 16px; text-decoration: none; min-width: 0; }
-.brand img { flex: none; height: clamp(56px, 6.5vw, 88px); width: auto; }
-.brand__words { font: 700 clamp(1.6rem, 3vw, 2.75rem)/1 var(--text); letter-spacing: -.01em; white-space: nowrap; }
+.brand__words { font: 700 clamp(1.6rem, 3vw, 2.75rem)/1 var(--text); letter-spacing: -.01em; white-space: nowrap; text-transform: lowercase; }
 
 .utility {
   display: flex; align-items: center; margin: 0; padding: 0; list-style: none; white-space: nowrap;
@@ -298,6 +297,5 @@ html { scroll-padding-top: 160px; }
   .band { min-height: 60svh; }
   .boxed { letter-spacing: .22em; }
   .brand { gap: 10px; }
-  .brand img { height: 48px; }
   .brand__words { font-size: 1.15rem; white-space: normal; }
 }

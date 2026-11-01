@@ -12,7 +12,7 @@ python -m http.server 5173
 - `index.html` – page structure and text (About, verses, contact)
 - `styles.css` – colours, fonts and layout (colour tokens at the top)
 - `main.js` – the video list and page behaviour
-- `assets/logo/` – `family-logo.png` (header logo) and `favicon.png` (browser tab icon)
+- `assets/logo/` – `family-logo.png` (family drawing, not currently shown) and `favicon.png` (browser tab icon)
 - `assets/videos/` – YouTube thumbnails, named by video ID
 - `assets/photos/` – cropped photos for the hero and verse bands
 
