@@ -89,10 +89,12 @@ player.querySelector('.player__close').onclick = () => player.close();
 player.addEventListener('click', (e) => { if (e.target === player) player.close(); });
 player.addEventListener('close', () => { frame.innerHTML = ''; });
 
-// Mobile menu reuses the main nav links.
+// Mobile menu reuses the main nav links plus the Subscribe link.
 const menuBtn = document.querySelector('.masthead .menu');
 const mobileNav = document.getElementById('mobile-nav');
-mobileNav.innerHTML = document.querySelector('.nav').innerHTML + '<button class="menu" type="button">Close</button>';
+mobileNav.innerHTML = document.querySelector('.nav').innerHTML
+  + document.querySelector('.utility .yt').outerHTML
+  + '<button class="menu" type="button">Close</button>';
 const setMenu = (open) => {
   mobileNav.hidden = !open;
   menuBtn.setAttribute('aria-expanded', open);
