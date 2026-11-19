@@ -21,6 +21,7 @@ python -m http.server 5173
 1. Save `https://i.ytimg.com/vi/<VIDEO_ID>/maxresdefault.jpg` as `assets/videos/<VIDEO_ID>.jpg`.
 2. Add a line to `VIDEOS` in `main.js`: `['<VIDEO_ID>', 'YYYY-MM-DD', 'category', 'Title'],`
    Categories: `life`, `homemaking`, `cooking`, `wanderlust`, `faith`.
+3. In `index.html`, bump the `?v=` date on `main.js` (and `styles.css` if it changed) so the Hostinger CDN serves the new file.
 
 ## Still to do
 
