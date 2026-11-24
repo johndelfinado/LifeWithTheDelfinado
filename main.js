@@ -3,6 +3,7 @@
 // (https://i.ytimg.com/vi/<id>/maxresdefault.jpg) and add a line below.
 // Categories: life, homemaking, cooking, wanderlust, faith. Newest first.
 const VIDEOS = [
+  ['ITSC1JcfKro', '2026-11-21', 'cooking', 'Rainy spring days: harvesting sugar snap peas & home cooking'],
   ['XAGXzzlawvQ', '2026-11-08', 'homemaking', 'Spring garden harvest: keeping greens fresh, garlic prep & soba'],
   ['Lne_OAnPOxE', '2026-10-25', 'homemaking', 'Clean with me: spring homemaking in the New Zealand countryside'],
   ['_GM0SfM-Stk', '2026-10-04', 'wanderlust', 'Our spring weekend in Hanmer Springs, Asha’s birthday & countryside life'],
